@@ -19,6 +19,36 @@
 3. 실제 소스 코드도 함께 제공하고, 이 문서의 확정 규칙에 따라 작성·수정하도록 요청합니다.
 4. 요약 지침과 정식 문서가 충돌하면 **정식 아키텍처 문서**를 우선합니다.
 
+## ChatGPT에서 사용하는 프롬프트
+
+다른 프로젝트에서 코드를 작성하거나 수정할 때 아래 내용을 복사하여 ChatGPT의 프로젝트 지침 또는 요청 메시지에 사용할 수 있습니다.
+
+```text
+다음 GitHub Repository에 정의된 개인 개발 아키텍처 v1.0을 기준으로 코드를 작성하고 수정해줘.
+
+아키텍처 저장소
+https://github.com/ungveloper/development-architecture
+
+AI 개발 지침
+https://github.com/ungveloper/development-architecture/blob/main/AI_DEVELOPMENT_INSTRUCTIONS.md
+
+정식 아키텍처 규칙
+https://github.com/ungveloper/development-architecture/blob/main/MY_DEVELOPMENT_ARCHITECTURE_V1.0.md
+
+작업 전에 두 문서의 실제 내용을 읽고, 확정된 모든 규칙을 적용해줘.
+
+1. 두 문서가 충돌한다면 정식 아키텍처 문서를 우선한다.
+2. 기존 아키텍처 규칙 안에서는 적극적으로 코드를 개선한다.
+3. 규칙을 벗어나는 새로운 설계나 추가 개선은 임의로 적용하지 않고 제안한다.
+4. 기존 프로젝트 구조를 먼저 분석하고, 재사용 가능한 코드를 우선 확인한다.
+5. Tailwind 클래스 정렬, 개행, DOM ID, 컴포넌트 분리, SEO 규칙을 준수한다.
+6. 수정 후 변경 파일, 아키텍처 준수 여부, 실제 검증 결과를 보고한다.
+
+GitHub 문서를 읽을 수 없다면 임의로 규칙을 추측하지 말고 접근할 수 없음을 알려줘.
+```
+
+> **참고:** GitHub 링크를 제공하는 것만으로 모든 AI 환경에서 파일을 자동으로 읽을 수 있는 것은 아닙니다. 문서에 접근할 수 없다면 Markdown 파일을 직접 첨부하세요. AI 개발 지침은 요약본이며 정식 아키텍처 문서를 우선합니다.
+
 ## 적용 범위
 
 - 범용 개인 원칙: 책임 분리, 컴포넌트 최소 단위 설계, 의존성, 네이밍, AI 수정·보고 계약
