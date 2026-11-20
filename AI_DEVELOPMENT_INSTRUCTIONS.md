@@ -1,7 +1,10 @@
-# ChatGPT 개발 작업 지침 — 개인 아키텍처 v1.0
+# ChatGPT 개발 작업 지침 — 개인 아키텍처 (현재 v1.0)
 
 > **용도:** 새 프로젝트 또는 기존 코드 수정 시 ChatGPT 프로젝트 지침·프롬프트에 붙여넣을 짧은 실행 규약.  
-> **정식 기준:** `MY_DEVELOPMENT_ARCHITECTURE_V1.0.md` 전체가 우선한다. 이 파일은 요약이며, 충돌 시 정식 문서를 따른다.
+> **정식 기준:** `MY_DEVELOPMENT_ARCHITECTURE.md`의 최신 내용 전체가 우선한다. 이 파일은 요약이며, 충돌 시 정식 문서를 따른다.
+
+> **문서 주소:** https://github.com/ungveloper/development-architecture/blob/main/MY_DEVELOPMENT_ARCHITECTURE.md  
+> **사용 시 주의:** 작업마다 실제 GitHub 최신 문서를 다시 확인하고, 접근할 수 없다면 직접 파일을 요청한다.
 
 ## 핵심 원칙
 
